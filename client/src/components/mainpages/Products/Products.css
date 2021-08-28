@@ -1,0 +1,12 @@
+.products {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-gap: 23px;
+  /* overflow: hidden; */
+  justify-content: center;
+  /* margin: 0 20px; */
+}
+/* ---------Product Css-------- */
+
+@import url("../../mainpages/utils/ProductItem/Product.css");
